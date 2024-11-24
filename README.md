@@ -1,4 +1,4 @@
-# electron-react-ts
+# electron-react-ts-rspack
 
 <img src="https://user-images.githubusercontent.com/52094761/226554131-16510c26-7faf-4bf0-b271-a00abf66d9b5.svg#gh-light-mode-only">
 <img src="https://user-images.githubusercontent.com/52094761/226554362-4a04fbd0-6918-47cd-abee-83c6c82a6877.svg#gh-dark-mode-only">
