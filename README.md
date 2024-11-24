@@ -5,11 +5,6 @@
 
 An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/).
 
-![GitHub last commit](https://img.shields.io/github/last-commit/sprout2000/electron-react-ts-rspack)
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/sprout2000/electron-react-ts-rspack/dev/electron)
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/sprout2000/electron-react-ts-rspack/react)
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/sprout2000/electron-react-ts-rspack/dev/typescript)
-
 ## :green_book: Usage
 
 ```sh
