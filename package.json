@@ -1,0 +1,37 @@
+{
+	"name": "electron-react-ts-rspack",
+	"version": "0.0.0",
+	"description": "Electron App",
+	"license": "",
+	"author": "",
+	"main": "dist/main.js",
+	"scripts": {
+		"dev": "rimraf dist && run-p dev:rspack dev:electron",
+		"build": "rimraf dist && rspack --node-env \"production\"",
+		"dev:rspack": "rspack --node-env \"development\"",
+		"dev:electron": "wait-on ./dist/index.html ./dist/main.js && electronmon ."
+	},
+	"electronmon": {
+		"patterns": ["dist/**/*"]
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@rspack/cli": "^1.1.3",
+		"@rspack/core": "^1.1.3",
+		"@types/node": "^22.9.1",
+		"@types/react": "^18.3.12",
+		"@types/react-dom": "^18.3.1",
+		"css-loader": "^7.1.2",
+		"electron": "^33.2.0",
+		"electronmon": "^2.0.3",
+		"html-webpack-plugin": "^5.6.3",
+		"npm-run-all": "^4.1.5",
+		"rimraf": "^6.0.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3",
+		"wait-on": "^8.0.1"
+	}
+}
