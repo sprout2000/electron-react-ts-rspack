@@ -1,6 +1,5 @@
 import type { Configuration } from "@rspack/cli";
-import { CssExtractRspackPlugin } from "@rspack/core";
-import HtmlWebpackPlugin from "html-webpack-plugin";
+import { CssExtractRspackPlugin, HtmlRspackPlugin } from "@rspack/core";
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -72,7 +71,7 @@ const renderer: Configuration = {
   },
   plugins: [
     new CssExtractRspackPlugin(),
-    new HtmlWebpackPlugin({
+    new HtmlRspackPlugin({
       inject: "body",
       template: "./src/web/index.html",
     }),

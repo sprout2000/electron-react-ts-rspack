@@ -12,7 +12,9 @@
 		"dev:electron": "wait-on ./dist/index.html ./dist/main.js && electronmon ."
 	},
 	"electronmon": {
-		"patterns": ["dist/**/*"]
+		"patterns": [
+			"dist/**/*"
+		]
 	},
 	"dependencies": {
 		"react": "^18.3.1",
@@ -27,7 +29,6 @@
 		"css-loader": "^7.1.2",
 		"electron": "^33.2.0",
 		"electronmon": "^2.0.3",
-		"html-webpack-plugin": "^5.6.3",
 		"npm-run-all": "^4.1.5",
 		"rimraf": "^6.0.1",
 		"ts-node": "^10.9.2",
